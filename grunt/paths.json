@@ -9,18 +9,18 @@
   },
   "exercise1": {
     "source": [
-      "example/lib/**/*.js"
+      "exercise-1/lib/**/*.js"
     ],
     "tests": [
-      "example/spec/**/*.js"
+      "exercise-1/spec/**/*.js"
     ]
   },
   "exercise2": {
     "source": [
-      "example/lib/**/*.js"
+      "exercise-2/lib/**/*.js"
     ],
     "tests": [
-      "example/spec/**/*.js"
+      "exercise-2/spec/**/*.js"
     ]
   },
   "source": [
