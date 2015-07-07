@@ -23,7 +23,7 @@
     "specs": ["<%=  paths.exercise1.tests %> "]
   },
 
-  "exercise1": {
+  "exercise2": {
     "specs": ["<%=  paths.exercise2.tests %> "]
   }
 }

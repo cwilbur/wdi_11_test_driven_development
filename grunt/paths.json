@@ -1,40 +1,40 @@
 {
-  "source_js": [
-    "app.js",
-    "lib/**/*.js",
-    "config/**/*.js",
-    "public/**/*.js",
-    "scripts/**/*.js"
+  "example": {
+    "source": [
+      "example/lib/**/*.js"
+    ],
+    "tests": [
+      "example/spec/**/*.js"
+    ]
+  },
+  "exercise1": {
+    "source": [
+      "example/lib/**/*.js"
+    ],
+    "tests": [
+      "example/spec/**/*.js"
+    ]
+  },
+  "exercise2": {
+    "source": [
+      "example/lib/**/*.js"
+    ],
+    "tests": [
+      "example/spec/**/*.js"
+    ]
+  },
+  "source": [
+    "<%= paths.example.source =>",
+    "<%= paths.exercise1.source =>",
+    "<%= paths.exercise2.source =>"
   ],
   "tests": [
-    "spec/**/*.spec.js"
-  ],
-  "other": [
-    "Gruntfile.js",
-    "grunt/*.js"
+    "<%= paths.example.tests =>",
+    "<%= paths.exercise1.tests =>",
+    "<%= paths.exercise2.tests =>"
   ],
   "project": [
-    "app.js",
-    "lib/**/*.js",
-    "spec/**/*.spec.js",
-    "config/**/*.js",
-    "config/**/*.json",
-    "public/**/*.js",
-    "scripts/**/*.js",
-    "templates/**/*.jade"
-  ],
-  "source_json": [
-    "lib/**/*.json"
-  ],
-  "tests_json": [
-    "spec/**/*.json"
-  ],
-  "other_json": [
-    "grunt/*.json"
-  ],
-  "project_json": [
-    "grunt/*.json",
-    "lib/**/*.json",
-    "spec/**/*.spec.json"
+    "<%= paths.source =>",
+    "<%= paths.tests =>"
   ]
 }

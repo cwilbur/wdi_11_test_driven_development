@@ -13,6 +13,8 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt);
   require('load-grunt-config')(grunt);
 
+  grunt.renameTask('jasmine_nodejs', 'test');
+
   if (grunt.task.exists('jshint')) {
 
     // dynamically update our jshint configuration
