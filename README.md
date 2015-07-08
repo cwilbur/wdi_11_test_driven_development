@@ -39,11 +39,16 @@ Once you've gone through a red phase and a green phase, you're in the refactor p
 
 (Nitpick time: **refactoring** is when you rearrange and simplify code that's covered by tests.  When you don't have tests, it's not **refactoring**, it's **rewriting**, which sounds much more sloppy and risky than refactoring.  Because it is.  Don't let your colleagues get away with sloppy language and self-delusion.) 
 
-## Demonstration:  Arithmetic expression calculator]
+## Demo: Prime Factors  (You get to watch)
+
+Every number can be expressed as the product of a set of prime factors. Write a function that takes a number and returns a list of its prime factors.
+
+## Demo:  Arithmetic expression calculator]
 
 The task: to create a function that takes a string with an arithmetic expression in it, and calculate the result. 
 
 The mathematical operators we recognize are (), +, -, *, /.  Numbers will all be integers, though they may be negative, and they may be large.  The function can expect that the expression will be valid.
+
 
 ## Lab One
 
@@ -78,7 +83,7 @@ Should produce:
 
 ## Further Labs 
 
-By now you should have the idea.  Try these as you see fit, with a partner or on your own.
+By now you should have the idea.  Choose one of these labs to try, with a partner or on your own. Try these as you see fit, with a partner or on your own.
 
 ### Spelling out Numbers
 
@@ -102,6 +107,51 @@ From the description of a very famous clock:
 > minute.
 
 Implement this clock. (This may work better on the client side.)
+
+## Lost in Alabama
+
+Write a function `shortestRoute` to find the shortest routing and distance between two Alabama cities using the following distance table.
+
+Do not use any other manually computed distances in your program.
+
+* Alabaster-Birmingham 24 miles
+* Alabaster-Montgomery 71 miles
+* Birmingham-Huntsville 103 miles
+* Birmingham-Tuscaloosa 59 miles
+* Demopolis-Mobile 141 miles
+* Demopolis-Montgomery 101 miles
+* Demopolis-Tuscaloosa 65 miles
+* Mobile-Montgomery 169 miles
+* Montgomery-Tuscaloosa 134 miles
+
+Example 1:
+
+`shortestRoute('Demopolis', 'Birmingham')` should return
+```Javascript
+{
+    distance: 124,
+    route: [
+        'Demopolis',
+        'Tuscaloosa',
+        'Birmingham'
+    ]
+}
+```
+
+Example 2:
+`shortestRoute('Mobile', 'Huntsville')` should return
+```javascript
+{
+    distance: 367,
+    route: [
+        'Mobile', 
+        'Montgomery', 
+        'Alabaster', 
+        'Birmingham', 
+        'Huntsville'
+    ] 
+}
+```
 
 ## Resources
 

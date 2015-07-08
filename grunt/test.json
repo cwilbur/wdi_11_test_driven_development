@@ -15,15 +15,23 @@
     }
   },
 
-  "example": {
-    "specs": ["<%=  paths.example.tests %> "]
+  "prime-factors": {
+    "specs": ["<%=  paths.primeFactors.tests %> "]
   },
 
-  "exercise1": {
-    "specs": ["<%=  paths.exercise1.tests %> "]
+  "string-calculator": {
+    "specs": ["<%=  paths.stringCalculator.tests %> "]
   },
 
-  "exercise2": {
-    "specs": ["<%=  paths.exercise2.tests %> "]
+  "berlin-clock": {
+    "specs": ["<%=  paths.berlinClock.tests %> "]
+  },
+
+  "lost-in-alabama": {
+    "specs": ["<%=  paths.lostInAlabama.tests %> "]
+  },
+
+  "spelling-out-numbers": {
+    "specs": ["<%=  paths.spellingOutNumbers.tests %> "]
   }
 }

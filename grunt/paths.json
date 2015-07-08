@@ -1,37 +1,57 @@
 {
-  "example": {
+  "primeFactors": {
     "source": [
-      "example/lib/**/*.js"
+      "prime-factors/lib/**/*.js"
     ],
     "tests": [
-      "example/spec/**/*.js"
+      "prime-factors/spec/**/*.js"
     ]
   },
-  "exercise1": {
+  "stringCalculator": {
     "source": [
-      "exercise-1/lib/**/*.js"
+      "string-calculator/lib/**/*.js"
     ],
     "tests": [
-      "exercise-1/spec/**/*.js"
+      "string-calculator/spec/**/*.js"
     ]
   },
-  "exercise2": {
+  "berlinClock": {
     "source": [
-      "exercise-2/lib/**/*.js"
+      "berlin-clock/lib/**/*.js"
     ],
     "tests": [
-      "exercise-2/spec/**/*.js"
+      "berlin-clock/spec/**/*.js"
+    ]
+  },
+  "lostInAlabama": {
+    "source": [
+      "lost-in-alabama/lib/**/*.js"
+    ],
+    "tests": [
+      "lost-in-alabama/spec/**/*.js"
+    ]
+  },
+  "spellingOutNumbers": {
+    "source": [
+      "spelling-out-numbers/lib/**/*.js"
+    ],
+    "tests": [
+      "spelling-out-numbers/spec/**/*.js"
     ]
   },
   "source": [
-    "<%= paths.example.source =>",
-    "<%= paths.exercise1.source =>",
-    "<%= paths.exercise2.source =>"
+    "<%= paths.primeFactors.source =>",
+    "<%= paths.stringCalculator.source =>",
+    "<%= paths.lostInAlabama.source =>"
+    "<%= paths.berlinClock.source =>"
+    "<%= paths.spellingOutNumbers.source =>"
   ],
   "tests": [
-    "<%= paths.example.tests =>",
-    "<%= paths.exercise1.tests =>",
-    "<%= paths.exercise2.tests =>"
+    "<%= paths.primeFactors.tests =>",
+    "<%= paths.stringCalculator.tests =>",
+    "<%= paths.lostInAlabama.tests =>",
+    "<%= paths.berlinClock.tests =>"
+    "<%= paths.spellingOutNumbers.tests =>"
   ],
   "project": [
     "<%= paths.source =>",
