@@ -42,15 +42,15 @@
   "source": [
     "<%= paths.primeFactors.source =>",
     "<%= paths.stringCalculator.source =>",
-    "<%= paths.lostInAlabama.source =>"
-    "<%= paths.berlinClock.source =>"
+    "<%= paths.lostInAlabama.source =>",
+    "<%= paths.berlinClock.source =>",
     "<%= paths.spellingOutNumbers.source =>"
   ],
   "tests": [
     "<%= paths.primeFactors.tests =>",
     "<%= paths.stringCalculator.tests =>",
     "<%= paths.lostInAlabama.tests =>",
-    "<%= paths.berlinClock.tests =>"
+    "<%= paths.berlinClock.tests =>",
     "<%= paths.spellingOutNumbers.tests =>"
   ],
   "project": [

@@ -1,4 +1,4 @@
-var add = require('../lib/add.js');
+var add = require('../lib/stringCalculator.js');
 
 describe('adding', function() {
   it('adds two numbers correctly', function() {
